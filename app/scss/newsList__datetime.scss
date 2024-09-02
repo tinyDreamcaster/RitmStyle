@@ -1,0 +1,16 @@
+@import './var.scss';
+
+
+.newsList__datetime {
+    position: absolute;
+    top: 12%;
+    left: 9%;
+    padding: .375rem .75rem .3125rem;
+    background: $color-button;
+    border-radius: .3125rem;
+
+    font-family: 'ProximaNova-Bold';
+    font-size: .875rem;
+    line-height: 135%;
+    color: $color-white;
+}

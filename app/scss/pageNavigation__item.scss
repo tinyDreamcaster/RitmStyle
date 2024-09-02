@@ -1,0 +1,23 @@
+@import './mixin/mixinCursorInteract.scss';
+@import './var.scss';
+
+.pageNavigation__item {
+    font-family: "ProximaNova-Regular";
+    font-size: .875rem;
+    line-height: 135%;
+
+    margin-right: .625rem;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-white;
+    }
+
+    &:hover {
+        @include mixinCursorInteract();
+    }
+}

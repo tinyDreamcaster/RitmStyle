@@ -1,0 +1,16 @@
+@import './var.scss';
+
+
+.aboutList__pic {
+    @media (max-width: $breackpoint_1200px) {
+        align-self: center;
+    }
+
+    img {
+        border-radius: .625rem;
+
+        @media (max-width: 35rem) {
+            max-width: 18.375rem;
+        }
+    }
+}

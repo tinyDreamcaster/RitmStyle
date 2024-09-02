@@ -1,0 +1,3 @@
+@mixin blockAdaptiveWidth ($blockWidth, $containerWidth) {
+    width: calc(($blockWidth * 100%) / $containerWidth);
+}

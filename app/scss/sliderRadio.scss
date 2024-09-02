@@ -1,0 +1,8 @@
+.sliderRadio {
+    display: none;
+
+    &:checked+.sliderRadioLabel {
+        opacity: 1;
+    }
+
+}

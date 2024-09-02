@@ -1,0 +1,15 @@
+@import './var.scss';
+
+
+.infoBlock__label_newPage {
+    position: inherit;
+    display: inherit;
+    max-width: none;
+    margin: 0;
+    margin-bottom: 1.875rem;
+
+    @media (max-width: $breackpoint_1200px) {
+        text-align: center;
+    }
+
+}

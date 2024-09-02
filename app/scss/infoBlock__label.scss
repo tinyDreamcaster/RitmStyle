@@ -1,0 +1,19 @@
+@import './var.scss';
+
+.infoBlock__label {
+    position: relative;
+    display: inline-block;
+    bottom: 10%;
+    left: 2.5rem;
+    max-width: 21rem;
+    width: 100%;
+    font-family: 'ElMessiri';
+    font-size: 1.5rem;
+    line-height: 140%;
+    color: $color-white;
+
+    @media (max-width: $breackpoint_416px) {
+        max-width: 15rem;
+    }
+
+}

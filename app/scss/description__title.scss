@@ -1,0 +1,19 @@
+@import './var.scss';
+
+
+.description__title {
+    margin-top: 0;
+    margin-bottom: 1.875rem;
+    font-family: 'ProximaNova-Bold';
+    font-size: 1.5rem;
+    line-height: 140%;
+    color: $color-white;
+
+    @media (max-width: $breackpoint_1200px) {
+        text-align: center;
+    }
+
+    @media (max-width: $breackpoint_480px) {
+        font-size: 1.1875rem;
+    }
+}

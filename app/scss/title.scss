@@ -1,0 +1,18 @@
+@import './var.scss';
+
+
+
+.title {
+    margin: 0;
+    max-width: 9.172em;
+    font-family: 'ElMessiri';
+    font-size: 4rem;
+    color: $color-white;
+    line-height: 140%;
+    text-align: center;
+
+    @media (max-width: $breackpoint_767px) {
+        font-size: 2.5rem;
+    }
+
+}

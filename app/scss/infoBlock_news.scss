@@ -1,0 +1,12 @@
+.infoBlock_news {
+
+    &:first-child {
+        max-width: 26rem;
+        height: 16.125rem;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(../../public/img/panelImg.jpg), #8E8E8E;
+
+        &::after {
+            display: none;
+        }
+    }
+}

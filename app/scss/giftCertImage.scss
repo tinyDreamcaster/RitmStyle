@@ -1,0 +1,11 @@
+@import './var.scss';
+
+
+.giftCertImage {
+    border-radius: .625rem;
+    text-align: center;
+
+    @media (max-width: $breackpoint_768px) {
+        max-width: 17.375rem;
+    }
+}

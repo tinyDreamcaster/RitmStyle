@@ -1,0 +1,17 @@
+@import './var.scss';
+
+.description__text {
+    max-width: 29.125rem;
+    font-family: 'ProximaNova-Light';
+    line-height: 140%;
+    color: $color-white;
+
+    @media (max-width: $breackpoint_1200px) {
+        text-align: justify;
+    }
+
+    @media (max-width: $breackpoint_480px) {
+        font-size: .875rem;
+        max-width: 20rem;
+    }
+}

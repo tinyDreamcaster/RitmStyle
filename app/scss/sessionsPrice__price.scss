@@ -1,0 +1,14 @@
+@import './var.scss';
+
+
+.sessionsPrice__price {
+    font-family: 'ElMessiri';
+    font-size: 1.125rem;
+    line-height: 140%;
+    color: $color-white;
+    text-align: right;
+
+    @media (max-width: $breackpoint_480px) {
+        font-size: 1rem;
+    }
+}

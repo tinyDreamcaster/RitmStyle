@@ -1,0 +1,84 @@
+@import './scss/normalize.scss';
+@import './scss/fonts.scss';
+@import './scss/var.scss';
+
+html {
+    height: 100%;
+}
+
+.pageBody {
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    align-content: center;
+    min-height: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-family: "ProximaNova-Light";
+    background-color: $bckgrnd-color;
+}
+
+.container {
+    max-width: 81.125rem;
+    padding: 0 .625rem;
+    margin: 0 auto;
+
+    &__subcontainer {
+        max-width: 108.5rem;
+        padding: 0 .625rem;
+        position: relative;
+
+        @media (max-width: $breackpoint_1746px) {
+            max-width: 39.75rem;
+        }
+
+
+        @media (max-width: 41.25rem) {
+
+            max-width: 18.75rem;
+        }
+    }
+
+    &__aboutContainer {
+        max-width: 67.25rem;
+    }
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+
+        @media (max-width: $breackpoint_767px) {
+
+            flex-direction: column;
+
+        }
+    }
+
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+
+
+    p {
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
+        font-family: 'ProximaNova-Bold';
+        font-size: .875rem;
+        line-height: 135%;
+        color: $color-white;
+
+        &:first-child {
+            font-family: 'ProximaNova-Regular';
+        }
+    }
+}
+
+.FooterInnerPage {
+    margin: 0 auto;
+    max-width: 81rem;
+    width: 100%;
+    border-top: .0625rem solid rgba($color: $color-white, $alpha: 0.5);
+}

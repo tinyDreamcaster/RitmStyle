@@ -1,0 +1,37 @@
+@import './var.scss';
+
+
+.slide_action {
+    max-width: 39.75rem;
+    min-height: 21.875rem;
+    padding: 3.125em 3.750em;
+    background: $color-button;
+    border-radius: .625rem;
+    opacity: 1;
+
+    .slide__reiewerName {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+    }
+
+    .slide__review {
+        margin: 0;
+        margin-bottom: 1.125rem;
+        width: 32.25rem;
+        font-size: .875rem;
+
+        @media (max-width: 41.25rem) {
+
+            width: 17.25rem;
+            font-size: .875rem;
+
+        }
+    }
+
+    @media (max-width: 41.25rem) {
+
+        max-width: 18.75rem;
+        padding: 1em;
+    }
+
+}

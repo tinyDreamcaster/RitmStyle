@@ -1,0 +1,12 @@
+@import './var.scss';
+
+
+.NewPageContentWrapper__textWrapper_blog {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: $breackpoint_1300px) {
+        align-self: center;
+    }
+}

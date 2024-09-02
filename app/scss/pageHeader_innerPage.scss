@@ -1,0 +1,9 @@
+@import './var.scss';
+
+.pageHeader_innerPage {
+    margin: 0 auto;
+    max-width: 81rem;
+    width: 100%;
+    margin-bottom: 3.75rem;
+    border-bottom: .0625rem solid rgba($color: $color-white, $alpha: 0.5);
+}

@@ -1,0 +1,12 @@
+@import './var.scss';
+
+
+.priceList {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $breackpoint_1200px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}

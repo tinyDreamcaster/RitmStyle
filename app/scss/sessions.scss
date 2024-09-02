@@ -1,0 +1,14 @@
+@import './mixin/mixinMBottom.scss';
+@import './var.scss';
+
+.sessions {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    @include mixinMBottom();
+
+    @media (max-width: $breackpoint_420px) {
+        height: auto;
+        margin-bottom: 2.375rem;
+    }
+}

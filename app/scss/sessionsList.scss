@@ -1,0 +1,27 @@
+@import './var.scss';
+
+
+.sessionsList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    max-width: 81rem;
+    width: 100%;
+    list-style: none;
+    height: 33.75rem;
+
+    @media (max-width: $breackpoint_1299px) {
+        align-content: space-around;
+        justify-content: flex-start;
+        height: 54.75rem;
+    }
+
+    @media (max-width: $breackpoint_1024px) {
+        height: auto;
+    }
+
+}

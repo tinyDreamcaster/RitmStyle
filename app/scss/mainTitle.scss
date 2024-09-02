@@ -1,0 +1,28 @@
+@import './mixin/mixinMBottom.scss';
+@import './mixin/mixinblockAdaptiveWidth.scss';
+@import './var.scss';
+
+.mainTitle {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    @include mixinMBottom();
+    @include blockAdaptiveWidth(81rem, 81.125rem);
+    min-height: 37.5rem;
+    background-color: $color-aqua;
+    background: linear-gradient(0deg, rgba(152, 201, 220, 0.5), rgba(152, 201, 220, 0.5)), url(../../public/img/mainTitle.jpg);
+    border-radius: .625rem;
+
+    @media (max-width: 81.1875rem) {
+        width: 100%;
+        //border-radius: 0;
+    }
+
+    @media (max-width: $breackpoint_767px) {
+        min-height: 12.5rem;
+        margin-bottom: 2.375rem;
+    }
+
+}

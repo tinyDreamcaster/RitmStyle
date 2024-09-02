@@ -1,0 +1,12 @@
+@import './var.scss';
+
+
+.NewPageContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: $breackpoint_1200px) {
+        flex-direction: column;
+    }
+}

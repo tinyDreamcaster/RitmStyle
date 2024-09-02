@@ -1,0 +1,9 @@
+@import './var.scss';
+
+.newsList__datetime_blog {
+    margin-bottom: 1.875rem;
+
+    @media (max-width: $breackpoint_470px) {
+        align-self: center;
+    }
+}

@@ -1,0 +1,22 @@
+@import './mixin/mixinCursorInteract.scss';
+@import './var.scss';
+
+
+.button {
+    border: 0;
+    border-radius: 0.231em;
+    background-color: $color-button;
+    font-family: 'ProximaNova-Semibold';
+    font-size: .8125rem;
+    line-height: 140%;
+    color: $color-white;
+    padding: 0.692em 1.154em;
+    white-space: nowrap;
+
+    &:hover {
+        @include mixinCursorInteract();
+    }
+
+
+
+}

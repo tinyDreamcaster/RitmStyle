@@ -1,0 +1,7 @@
+@mixin mixinMBottom () {
+    margin-bottom: 9.375rem;
+
+    @media (max-width: 75rem) {
+        margin-bottom: 3.125rem;
+    }
+}

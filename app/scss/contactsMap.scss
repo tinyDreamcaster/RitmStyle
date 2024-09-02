@@ -1,0 +1,22 @@
+@import './var.scss';
+
+
+.contactsMap {
+    border-radius: .625rem;
+
+    max-width: 53.5rem;
+
+    @media (max-width: $breackpoint_1300px) {
+        margin-bottom: 3.125rem;
+
+    }
+
+    @media (max-width: $breackpoint_890px) {
+        max-width: 33.5rem;
+    }
+
+    @media (max-width: $breackpoint_600px) {
+        max-width: 17.375rem;
+    }
+
+}

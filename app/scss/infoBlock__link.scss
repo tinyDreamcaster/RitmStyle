@@ -1,0 +1,17 @@
+.infoBlock__link {
+    z-index: 10;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: .625rem;
+    text-decoration: none;
+
+    &:hover {
+        background-color: rgba(1, 138, 190, 0.5);
+    }
+}

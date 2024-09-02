@@ -1,0 +1,22 @@
+@import './var.scss';
+
+
+
+.infoBlock__label_blog,
+.description__text_blog {
+    max-width: 35.25rem;
+
+}
+
+.infoBlock__label_blog {
+    margin-bottom: 1.25rem;
+}
+
+.description__text_blog {
+
+    margin-bottom: 2.5rem;
+
+    @media (max-width: $breackpoint_470px) {
+        font-size: .75rem;
+    }
+}

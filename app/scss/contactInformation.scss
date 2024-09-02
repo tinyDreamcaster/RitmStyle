@@ -1,0 +1,12 @@
+@import './var.scss';
+
+
+.contactInformation {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: $breackpoint_1300px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,19 @@
+@import './mixin/mixinblockAdaptiveWidth.scss';
+@import './var.scss';
+
+
+.pageNavigation {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @include blockAdaptiveWidth(40.9375rem, 81.125rem);
+    list-style: none;
+    padding: 0;
+
+    @media (max-width: $breackpoint_767px) {
+
+        justify-content: space-around;
+
+    }
+}

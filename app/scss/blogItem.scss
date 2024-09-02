@@ -1,0 +1,10 @@
+@import './var.scss';
+
+
+.blogItem {
+    border: .125rem solid $color-button;
+    border-radius: 1.25rem;
+    margin: 0;
+    margin-bottom: 2.8125rem;
+    padding: 3.125rem 3.75rem;
+}

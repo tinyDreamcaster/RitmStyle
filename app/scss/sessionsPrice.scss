@@ -1,0 +1,19 @@
+@import './var.scss';
+
+
+
+.sessionsPrice {
+    max-width: 26rem;
+    width: 100%;
+    min-height: 15.625rem;
+    align-self: center;
+
+    @media (max-width: $breackpoint_1200px) {
+        max-width: 20rem;
+    }
+
+    @media (max-width: $breackpoint_480px) {
+        max-width: 17rem;
+    }
+
+}

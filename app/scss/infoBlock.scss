@@ -1,0 +1,67 @@
+@import './var.scss';
+
+
+
+.infoBlock {
+    position: relative;
+
+    &:first-child {
+        position: relative;
+        max-width: 26rem;
+        width: 100%;
+        height: 33.75rem;
+        border-radius: .625rem;
+        background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(../../public/img/standartRythm.jpg), #8E8E8E;
+
+        &::after {
+            content: '';
+            position: absolute;
+            max-width: 26rem;
+            width: 100%;
+            height: .4375rem;
+            left: 0;
+            bottom: 0;
+            border-radius: 0rem 0rem .625rem .625rem;
+            background-color: $color-button;
+
+            @media (max-width: $breackpoint_416px) {}
+        }
+
+        .sessionsList__link {
+            bottom: 10%;
+            left: 3.125rem;
+        }
+
+        @media (max-width: $breackpoint_1299px) {
+            height: 16.125rem;
+            background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)), url(../../public/img/panelImg.jpg), #8E8E8E;
+
+        }
+
+        @media (max-width: $breackpoint_416px) {
+            height: 10.125rem;
+        }
+
+    }
+
+    max-width: 26rem;
+    width: 100%;
+    height: 16.125rem;
+    border-radius: .625rem;
+    background: linear-gradient(0deg, rgba(1, 138, 190, 0.5), rgba(1, 138, 190, 0.5)),
+    url(../../public/img/panelImg.jpg),
+    #8E8E8E;
+
+    @media (max-width: $breackpoint_1299px) {
+        margin-bottom: 1.25rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    @media (max-width: $breackpoint_416px) {
+        height: 10.125rem;
+    }
+
+}

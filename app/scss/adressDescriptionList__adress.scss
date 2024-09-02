@@ -1,0 +1,35 @@
+@import './var.scss';
+
+
+
+.adressDescriptionList__adress {
+    display: flex;
+    margin-bottom: 1.3125rem;
+
+
+
+    p {
+        margin: 0;
+        font-family: "ProximaNova-Regular";
+        font-size: .875rem;
+        line-height: 135%;
+        color: white;
+
+    }
+
+    &:last-child {
+        margin-bottom: 1.875rem;
+
+        @media (max-width: $breackpoint_600px) {
+            margin-bottom: .625rem;
+        }
+    }
+
+    svg {
+        margin-right: 1.445rem;
+    }
+
+    @media (max-width: $breackpoint_600px) {
+        margin-bottom: .625rem;
+    }
+}

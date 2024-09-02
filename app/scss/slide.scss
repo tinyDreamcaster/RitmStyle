@@ -1,0 +1,54 @@
+@import './var.scss';
+
+
+.slide {
+    box-sizing: border-box;
+    margin-right: 3.125rem;
+    max-width: 31.25rem;
+    min-height: 17.25rem;
+    padding: 2.563em 2.813em;
+    background: $color-button;
+    border-radius: .625rem;
+    opacity: 0.4;
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    .slide__reiewerName {
+        margin: 0;
+        margin-bottom: .875rem;
+        width: 25.625rem;
+        font-family: 'ProximaNova-Bold';
+        line-height: 140%;
+        color: white;
+    }
+
+    .slide__review {
+        margin: 0;
+        margin-bottom: 1.0625rem;
+        font-family: 'ProximaNova-Light';
+        font-size: .625rem;
+        line-height: 140%;
+        color: white;
+
+        &:last-child {
+            margin-bottom: 0;
+
+            @media (max-width: 41.25rem) {
+
+                width: 17.25rem;
+                font-size: .875rem;
+    
+            }
+        }
+
+
+
+    }
+
+    transition: 2s;
+
+
+
+}

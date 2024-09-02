@@ -1,0 +1,21 @@
+@import './var.scss';
+
+
+
+
+.adressLists__adressDescription {
+    min-width: 18.875rem;
+    padding: 2.1875em 2.8125em;
+    background-color: $color-button;
+    border-radius: .625rem;
+
+    @media (max-width: $breackpoint_890px) {
+        margin-bottom: .625rem;
+    }
+
+    @media (max-width: 37.5rem) {
+        min-width: 13.5rem;
+        padding: 1.1875em 1.8125em;
+
+    }
+}

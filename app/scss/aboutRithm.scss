@@ -1,0 +1,8 @@
+@import './mixin/mixinMBottom.scss';
+
+
+.aboutRithm {
+    display: flex;
+    flex-direction: column;
+    @include mixinMBottom();
+}

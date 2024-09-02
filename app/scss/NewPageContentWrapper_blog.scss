@@ -1,0 +1,10 @@
+@import './var.scss';
+
+
+.NewPageContentWrapper_blog {
+    flex-direction: row-reverse;
+
+    @media (max-width: $breackpoint_1300px) {
+        flex-direction: column;
+    }
+}
